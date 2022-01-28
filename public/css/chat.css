@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+	--dark-color-a: #667aff;
+	--dark-color-b: #7386ff;
+	--light-color: #e6e9ff;
+	--success-color: #5cb85c;
+	--error-color: #d9534f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background: var(--light-color);
+	margin: 20px;
+}
+
+form {
+  background: #000;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 97%;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  width: 94%;
+  margin-right: 0.5%;
+  border-radius: 5px;
+}
+
+form button {
+  cursor: pointer;
+	padding: 5px 15px;
+	background: var(--light-color);
+	color: var(--dark-color-a);
+	border: 0;
+	font-size: 17px;
+  border-radius: 5px;
+}
+
+#mensagens {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mensagens li {
+  padding: 5px 10px;
+}
+
+#mensagens li:nth-child(odd) {
+  background: #eee;
+}
