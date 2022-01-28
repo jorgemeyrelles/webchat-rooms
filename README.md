@@ -19,3 +19,10 @@ Mude para a página do projeto
 
 ## `npm install`
 
+## `Browser`
+
+Vá até o browser e digite:
+
+````
+http://localhost:3000
+````
